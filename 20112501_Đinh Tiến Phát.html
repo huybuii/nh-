@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <style>
+        .form1{
+            height:400px;
+            width:300px;
+            border: 2px solid rgb(9, 27, 35);
+            padding: 15px;
+        }
+        *{
+            margin: auto;
+        }
+        h1{
+            margin-bottom: 3px;
+        }
+        p,button{
+            margin:14px       ;
+        }
+        .input-text input {
+            margin: 7px  ;
+            width: 90%;
+        }
+        .gender{
+            margin: 15px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="form1">
+        <h1>Đăng ký</h1>
+        <p>Miễn phí và vẫn sẽ luôn như vậy</p>
+        <div class="input-text">
+        <input type="text" placeholder="Họ" style="width: 40%;">
+        <input type="text" placeholder="Tên" style="width: 41%;">
+        <input type="text"placeholder="Email hay số điện thoại di động">
+        <input type="text"placeholder="Nhập lại Email hay số điện thoại di động">
+        <input type="text" placeholder="Mật khẩu mới">
+        </div>
+        <p>Ngày sinh</p>
+        <form action="/action_page.php">
+            <input type="date" id="birthday" name="birthday">
+        </form>
+        <form class="gender">
+              <input type="radio" id="html" name="fav_language" value="Nam">
+              <label for="html">Nam</label>
+              <input type="radio" id="css" name="fav_language" value="Nu">
+              <label for="html">Nữ</label>
+        </form> 
+        <button>Đăng ký </button>
+    </div>
+</body>
+</html>
